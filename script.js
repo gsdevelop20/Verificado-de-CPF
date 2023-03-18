@@ -79,14 +79,14 @@ function verificarCpf(){
         segundoDigt  = calculoDig2(cpfSplit,primeiroDigt)
 
         if(parseInt(cpfSplit[9]) === primeiroDigt && parseInt(cpfSplit[10]) === segundoDigt){
-            h1.innerHTML = "CPF Valido"
+            h1.innerHTML = "CPF Válido"
             h1.style.color = "green";
         }else{
             h1.innerHTML = "CPF invalido"
             h1.style.color = "red";
         }
     }else{
-        h1.innerHTML = "CPF invalido"
+        h1.innerHTML = "CPF inválido"
         h1.style.color = "red";
     }
 
