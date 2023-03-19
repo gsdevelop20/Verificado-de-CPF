@@ -82,7 +82,7 @@ function verificarCpf(){
             h1.innerHTML = "CPF Válido"
             h1.style.color = "green";
         }else{
-            h1.innerHTML = "CPF invalido"
+            h1.innerHTML = "CPF inválido"
             h1.style.color = "red";
         }
     }else{
